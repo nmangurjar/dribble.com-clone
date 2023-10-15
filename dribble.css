@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 0;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 35px;
+}
+#nav1 h4{
+    color: #616166;
+     font-size: 16px;
+}
+#nav1 h4:hover{
+    color: black;
+}
+#nav1 img{
+    height: 40px;
+    width: 100px;
+}
+#nav2 h4{
+     color: rgb(159, 159, 167);
+     font-size:17px;
+     font-weight: 100;
+
+}
+#nav2 i{
+    color: rgb(159, 159, 167);
+    font-size:19px;
+    
+}
+#nav2 button {
+    height: 40px;
+    width: 80px;
+    background-color: #f0347c;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+}
+#nav2 button:hover{
+    background-color: #e683a9;
+    
+}
+#center{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#center video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}#center #overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#nav3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+
+}
+#nav3 h3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+   padding: 15px 18px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 100;
+
+}
+#nav3 h3:hover{
+    color: black;
+    background-color: #fff;
+}
+#nav3 #s{
+    color: black;
+    background-color: #fff;
+}
+#nav3 #s:hover{
+    color: white;
+    background-color: black;
+}
+#nav4{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    margin-top: 20px;
+}
+#nav4 h1{
+    
+    font-size: 40px;
+    font-weight: 900;
+}#nav4 h4{
+    font-size: 16px;
+    word-spacing: 3px;
+    font-weight: 50;
+    
+}
+#nav4 input{
+    height: 60px;
+    width: 600px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    text-align: center;
+}
+#nav5{
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 27%;
+    gap: 15px;
+    align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   
+
+}
+#nav5 h4{
+    padding: 6px 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(134, 129, 129);
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+#nav5 h4:hover{
+    border: 1px solid white;
+}
+#a{
+    position: absolute;
+    top: 98%;
+    left: 5%;
+    height: 40px;
+    width: 110px;
+    word-spacing: 10px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.58);
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+#a:hover{
+    border: 3px solid rgba(255, 192, 203, 0.555);
+}#b{ position: absolute;
+    top: 98%;
+    right: 5%;
+    height: 40px;
+    width: 90px;
+    word-spacing: 3px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+#b i{
+    font-size: 18px;
+}
+#b:hover{
+    border: 1px solid rgba(128, 128, 128, 0.783);
+
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.elem{
+    height: 290px;
+    width: 370px;
+    display: inline-block;
+  padding: 50px 25px;
+    position: relative;
+    overflow: hidden;
+   
+} 
+.elem img{
+    height: 280px;
+    width:360px ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+ 
+}
+.elem .cover {
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(transparent,black);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease 0.6s;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+    
+     
+}
+.elem:hover .cover {
+    bottom: 0%;
+}
+.cover i{
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+
+}
+.cover h3{
+    color: white;
+   font-size: 17px;
+   font-weight: 300;
+   
+}
+#bottomc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+#bottomc button {
+    height: 40px;
+    width: 220px;
+    background-color: #f0347c;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+}
+
+#bottomc button:hover{
+    background-color: #e683a9;
+    
+}
+#bottomc h4{
+    color: #f0347c;
+    font-weight: 300;
+}
+#last {
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    background-color: #FAFAFB;
+    margin-top: 30px;
+    position: relative;
+}
+#ll{
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    text-align: left;
+}
+#ll i{
+    padding: 0 5px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 100;
+}
+#ll h5{
+    font-size: 15px;
+    font-weight: 50;
+    color: #4c4c4ede;
+
+
+}
+#last #c{
+    position: absolute;
+    top: 9%;
+    left: 30%;
+}#last #d{
+    position: absolute;
+    top: 9%;
+    left: 44%;
+}#last #e{
+    position: absolute;
+    top: 9%;
+    left: 59%;
+}#last #f{
+    position: absolute;
+    top: 9%;
+    left: 70%;
+}#last #g{
+    position: absolute;
+    top: 9%;
+    left: 85%;
+}
+#last p{
+    color: #616166;
+    font-size: 14px;
+}
+#last  b{
+    color: black;
+}
+#last #h{
+    color: #4c4c4ede;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 2%;
+    left: 8%;
+}#last #i{
+    color: #4c4c4ede;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+}
+#i img{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 105%;
+    top: -5px;
+    
+}
+#last hr{
+    position: relative;
+    bottom: -85%;
+   
+   
+}
